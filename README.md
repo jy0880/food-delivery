@@ -81,10 +81,10 @@
 
 
 # CQRS
-  - 구현
+  - 구현 : 오더주문시 orderView 정보를 생성한고, 각 단계전진시 orderStatus상태를 현행화 관리한다.
   - ![image](https://user-images.githubusercontent.com/61446346/205814117-7aa5d785-2d93-4d1a-90bd-8eb501648efe.png)
 
-  - 확인
+  - 확인 : 오더주문시 생성된 데이터 
   - ![image](https://user-images.githubusercontent.com/61446346/205814569-86d3e309-477c-40b1-8c9e-665be1c90f42.png)
 
 # Compensation / Correlation
