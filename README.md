@@ -80,17 +80,27 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205813194-69878c3d-f958-4399-ae41-6200670551c3.png)
 
 
-# CQRS
+### CQRS
   - 구현 : 오더주문시 orderView 정보를 생성한고, 각 단계전진시 orderStatus상태를 현행화 관리한다.
   - ![image](https://user-images.githubusercontent.com/61446346/205814117-7aa5d785-2d93-4d1a-90bd-8eb501648efe.png)
 
   - 확인 : 오더주문시 생성된 데이터 
   - ![image](https://user-images.githubusercontent.com/61446346/205814569-86d3e309-477c-40b1-8c9e-665be1c90f42.png)
 
-# Compensation / Correlation
-# Request / Response
-# Circuit Breaker
-# Gateway / Ingress
+### Compensation / Correlation
+  #### 구현 : 오더커맨드 실행시 오더정보가 생성되고, 오더취소 커맨드 실행시 오더정보를 삭제한다.
+  - 
+  
+### Request / Response
+  #### 구현 : 주문정보 조회시 http GET 구현
+  - ![image](https://user-images.githubusercontent.com/61446346/205844002-80b55f91-6d3c-48f7-9e2e-38e48e8d2f5c.png)
+
+  #### 실행 : 
+  -   ![image](https://user-images.githubusercontent.com/61446346/205843890-597798c8-1605-4fd9-a70e-0763b2afa0d6.png)
+
+
+### Circuit Breaker
+### Gateway / Ingress
   - 구현
   - ![image](https://user-images.githubusercontent.com/61446346/205819140-dc60d97e-0355-4d72-96af-8fe8560089df.png)
 
