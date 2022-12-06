@@ -88,8 +88,27 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205814569-86d3e309-477c-40b1-8c9e-665be1c90f42.png)
 
 ### Compensation / Correlation
-  #### 구현 : 오더커맨드 실행시 오더정보가 생성되고, 오더취소 커맨드 실행시 오더정보를 삭제한다.
-  - 
+  #### 구현 : 오더커맨드 실행시 오더정보 kafka에 적재, 오더캔슬커맨드 실행시 오더정보를 삭제한다.
+  - 오더주문 
+  - ![image](https://user-images.githubusercontent.com/61446346/205846913-33451e38-0195-4ba1-a04e-4199dd09fd93.png)
+
+  - 오더취소
+  - ![image](https://user-images.githubusercontent.com/61446346/205847021-47ff372f-da6d-409c-9ec3-d19fe2859461.png)
+
+  #### 실행 : 
+  - 오더주문
+  - ![image](https://user-images.githubusercontent.com/61446346/205847148-833f5e98-7df1-4639-b246-6c8c3b2dd445.png)
+
+  #### kafka 확인 : 
+  - 오더주문
+  - ![image](https://user-images.githubusercontent.com/61446346/205847939-52f2d793-e957-4a17-883f-b6c008893146.png)
+
+  - 오더취소
+  - ![image](https://user-images.githubusercontent.com/61446346/205848028-f28981bb-3cec-48a1-babb-c0a153ea8248.png)
+
+  - 오더정보 확인 : orderId = 5
+  - ![image](https://user-images.githubusercontent.com/61446346/205848158-51867ac1-c3d2-4edf-8b55-ca709a3faa43.png)
+
   
 ### Request / Response
   #### 구현 : 주문정보 조회시 http GET 구현
