@@ -64,8 +64,8 @@
     - 특정등급 도달시 쿠폰지급을 한다.
 
 
-# 체크포인트
-1. Saga (Pub / Sub)
+## 체크포인트
+# Saga (Pub / Sub)
   - 구현  
   - ![image](https://user-images.githubusercontent.com/61446346/205812757-49e1c8be-4159-4254-b2a5-e3b7eadb3c70.png)
   
@@ -76,21 +76,22 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205813194-69878c3d-f958-4399-ae41-6200670551c3.png)
 
 
-2. CQRS
+# CQRS
   - 구현
   - ![image](https://user-images.githubusercontent.com/61446346/205814117-7aa5d785-2d93-4d1a-90bd-8eb501648efe.png)
 
   - 확인
   - ![image](https://user-images.githubusercontent.com/61446346/205814569-86d3e309-477c-40b1-8c9e-665be1c90f42.png)
 
+# Compensation / Correlation
+# Request / Response
+# Circuit Breaker
+# Gateway / Ingress
+  - 구현
+  - ![image](https://user-images.githubusercontent.com/61446346/205815603-4144a021-4fd7-44a0-a280-e49903cc349d.png)
 
-
-
-4. Compensation / Correlation
-5. Request / Response
-6. Circuit Breaker
-7. Gateway / Ingress
-
+  - 실행
+  - 
 
 
 
