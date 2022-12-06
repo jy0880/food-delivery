@@ -70,8 +70,10 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205812757-49e1c8be-4159-4254-b2a5-e3b7eadb3c70.png)
   
   - 실행
-  - Order커맨드 실행 : ![image](https://user-images.githubusercontent.com/61446346/205813102-0f9f9a12-7f77-495c-a055-af23e0da81e8.png)
-  - Store 오더정보 확인 : ![image](https://user-images.githubusercontent.com/61446346/205822857-347a1d05-6589-4aa6-b503-3bfcdc6a371b.png)
+  - Order커맨드 실행
+    ![image](https://user-images.githubusercontent.com/61446346/205813102-0f9f9a12-7f77-495c-a055-af23e0da81e8.png)
+  - Store에서 오더정보 확인
+    ![image](https://user-images.githubusercontent.com/61446346/205822857-347a1d05-6589-4aa6-b503-3bfcdc6a371b.png)
 
 
   - kafka 확인
