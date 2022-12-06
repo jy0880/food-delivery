@@ -69,14 +69,14 @@
   #### 구현 : Order커맨드로 주문시 주문정보는 kafka에 저장되며 store에서는 해당 오더정보를 확인할 수 있다.
   - ![image](https://user-images.githubusercontent.com/61446346/205812757-49e1c8be-4159-4254-b2a5-e3b7eadb3c70.png)
   
-  - 실행
+  #### 실행
   - Order커맨드 실행
     ![image](https://user-images.githubusercontent.com/61446346/205813102-0f9f9a12-7f77-495c-a055-af23e0da81e8.png)
   - Store에서 오더정보 확인
     ![image](https://user-images.githubusercontent.com/61446346/205822857-347a1d05-6589-4aa6-b503-3bfcdc6a371b.png)
 
 
-  - kafka 확인
+  #### kafka 확인
   - ![image](https://user-images.githubusercontent.com/61446346/205813194-69878c3d-f958-4399-ae41-6200670551c3.png)
 
 
