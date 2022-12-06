@@ -88,7 +88,7 @@
 # Circuit Breaker
 # Gateway / Ingress
   - 구현
-  - ![image](https://user-images.githubusercontent.com/61446346/205815603-4144a021-4fd7-44a0-a280-e49903cc349d.png)
+  - ![image](https://user-images.githubusercontent.com/61446346/205819140-dc60d97e-0355-4d72-96af-8fe8560089df.png)
 
   - 실행
   - ![image](https://user-images.githubusercontent.com/61446346/205817463-37fa0a22-7f8b-4e2d-8be3-aa76d4aabb92.png)
