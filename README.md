@@ -91,7 +91,7 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205815603-4144a021-4fd7-44a0-a280-e49903cc349d.png)
 
   - 실행
-  - ![image](https://user-images.githubusercontent.com/61446346/205817345-1b2039fb-a1b6-41d0-9e21-6e83caf7b6b9.png)
+  - ![image](https://user-images.githubusercontent.com/61446346/205817463-37fa0a22-7f8b-4e2d-8be3-aa76d4aabb92.png)
 
 
 
