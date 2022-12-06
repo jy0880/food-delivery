@@ -65,8 +65,8 @@
 
 
 ## 체크포인트
-# Saga (Pub / Sub)
-  - 구현 : Order커맨드로 주문시 주문정보는 kafka에 저장되며 store에서는 해당 오더정보를 확인할 수 있다.
+### Saga (Pub / Sub)
+  #### 구현 : Order커맨드로 주문시 주문정보는 kafka에 저장되며 store에서는 해당 오더정보를 확인할 수 있다.
   - ![image](https://user-images.githubusercontent.com/61446346/205812757-49e1c8be-4159-4254-b2a5-e3b7eadb3c70.png)
   
   - 실행
