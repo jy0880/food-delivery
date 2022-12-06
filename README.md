@@ -58,7 +58,7 @@
 ![image](https://user-images.githubusercontent.com/61446346/205808961-9445b36f-4c84-47a5-b387-614735a26658.png)
 
 # 모델 수정 및 추가
-![image](https://user-images.githubusercontent.com/61446346/205808740-f5a6e611-e247-4665-90ae-457bedec20cd.png)
+![image](https://user-images.githubusercontent.com/61446346/205809582-56f69237-916f-487a-bc73-ba13cd34cb05.png)
 
     - 배달완료가 되면 고객 등급을 상향한다. 
     - 특정등급 도달시 쿠폰지급을 한다.
