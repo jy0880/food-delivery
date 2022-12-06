@@ -65,7 +65,7 @@
 
 
 ## 체크포인트
-### Saga (Pub / Sub)
+### 1. Saga (Pub / Sub)
 
   #### 구현 : Order커맨드로 주문시 주문정보는 kafka에 저장되며 store에서는 해당 오더정보를 확인할 수 있다.
   - ![image](https://user-images.githubusercontent.com/61446346/205812757-49e1c8be-4159-4254-b2a5-e3b7eadb3c70.png)
@@ -81,7 +81,7 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205813194-69878c3d-f958-4399-ae41-6200670551c3.png)
 
 
-### CQRS
+### 2. CQRS
 
   - 구현 : 오더주문시 orderView 정보를 생성한고, 각 단계전진시 orderStatus상태를 현행화 관리한다.
   - ![image](https://user-images.githubusercontent.com/61446346/205814117-7aa5d785-2d93-4d1a-90bd-8eb501648efe.png)
@@ -89,7 +89,7 @@
   - 확인 : 오더주문시 생성된 데이터 
   - ![image](https://user-images.githubusercontent.com/61446346/205814569-86d3e309-477c-40b1-8c9e-665be1c90f42.png)
 
-### Compensation / Correlation
+### 3. Compensation / Correlation
 
   #### 구현 : 오더주문커맨드 실행시 오더정보 kafka에 적재, 오더캔슬커맨드 실행시 오더정보를 삭제한다.
   - 오더주문 
@@ -113,7 +113,7 @@
   - ![image](https://user-images.githubusercontent.com/61446346/205848158-51867ac1-c3d2-4edf-8b55-ca709a3faa43.png)
 
   
-### Request / Response
+### 4. Request / Response
 
   #### 구현 : 주문정보 조회시 http GET 구현
   - ![image](https://user-images.githubusercontent.com/61446346/205844002-80b55f91-6d3c-48f7-9e2e-38e48e8d2f5c.png)
@@ -122,13 +122,13 @@
   -   ![image](https://user-images.githubusercontent.com/61446346/205843890-597798c8-1605-4fd9-a70e-0763b2afa0d6.png)
 
 
-### Circuit Breaker
+### 5. Circuit Breaker
   #### 설정 : 오더주문시 
   ![image](https://user-images.githubusercontent.com/61446346/205851924-4e006579-67ec-4755-b649-2d3138de4e8d.png)
 
   #### 설정변경 : 
 
-### Gateway / Ingress
+### 6. Gateway / Ingress
 
   - 구현
   - ![image](https://user-images.githubusercontent.com/61446346/205819140-dc60d97e-0355-4d72-96af-8fe8560089df.png)
