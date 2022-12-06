@@ -55,7 +55,7 @@
 
 
 ## 완성된 1차 모형
-![image](https://user-images.githubusercontent.com/61446346/205808572-f0d831d8-8ac7-4d54-a27b-421184a630ae.png)
+![image](https://user-images.githubusercontent.com/61446346/205808961-9445b36f-4c84-47a5-b387-614735a26658.png)
 
 # 모델 수정 및 추가
 ![image](https://user-images.githubusercontent.com/61446346/205808740-f5a6e611-e247-4665-90ae-457bedec20cd.png)
