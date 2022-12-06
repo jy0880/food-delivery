@@ -123,7 +123,10 @@
 
 
 ### Circuit Breaker
+  #### 설정 : 오더주문시 
+  ![image](https://user-images.githubusercontent.com/61446346/205851924-4e006579-67ec-4755-b649-2d3138de4e8d.png)
 
+  #### 설정변경 : 
 
 ### Gateway / Ingress
 
