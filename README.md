@@ -58,10 +58,10 @@
 ![image](https://user-images.githubusercontent.com/61446346/205808961-9445b36f-4c84-47a5-b387-614735a26658.png)
 
 # 모델 수정 및 추가
-![image](https://user-images.githubusercontent.com/61446346/205809582-56f69237-916f-487a-bc73-ba13cd34cb05.png)
+![image](https://user-images.githubusercontent.com/61446346/205819887-c61df507-0473-4c5c-ae4c-aa0290185e1e.png)
 
-    - 배달완료가 되면 고객 등급을 상향한다. 
-    - 특정등급 도달시 쿠폰지급을 한다.
+    1. 배달완료가 되면 고객 등급을 상향한다. 
+    2. order상태변경시 고객에게 비동기적으로 SMS알람처리를 하고 부하발생시 알람처리를 중단한다.
 
 
 ## 체크포인트
